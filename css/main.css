@@ -69,8 +69,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #3D9970;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: #AAAAAA;
+  background: url(../images/header-bg-2.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
