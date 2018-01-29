@@ -1,0 +1,103 @@
+/* don't forget to edit the image height and width */
+.shape-container{
+  position:relative;
+  width: 1000px;
+    height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shape-top{
+  position:relative;
+  top:0;
+  left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url('http://i68.tinypic.com/14boj6h.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+  /* This is where you would edit using the clippy website */
+  -webkit-clip-path: polygon(49% 48%, 0 0, 100% 0);
+  clip-path: polygon(49% 48%, 0 0, 100% 0);
+}
+
+.shape-top h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  position: relative;
+  top: 170px;
+  left: 320px;
+  color: black;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.shape-left{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width: 100%;
+    height: 100%;
+    background-image: url('http://i63.tinypic.com/11jook3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 150px center;
+  -webkit-clip-path: polygon(49% 48%, 0 100%, 0 0);
+  clip-path: polygon(49% 48%, 0 100%, 0 0);
+}
+
+.shape-left h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+  top: 49%;
+  left: 60%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.shape-right{
+  position:absolute;
+  right:0;
+  top:0;
+    width: 100%;
+    height:100%;
+    background-image: url('http://i64.tinypic.com/29ar5nc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 300px center;
+  -webkit-clip-path: polygon(49% 48%, 100% 100%, 100% 0);
+  clip-path: polygon(49% 48%, 100% 100%, 100% 0);
+}
+
+.shape-right h2 {
+  font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+   color: white;
+   text-transform: uppercase;
+   margin: 0;
+   position: relative;
+   top: 45%;
+   left: 75%;
+   font-size: 2rem;
+}
+
+.shape-bottom{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  background-image: url('http://i68.tinypic.com/dq67eu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 300px center;
+  -webkit-clip-path: polygon(49% 48%, 0 100%, 100% 100%);
+clip-path: polygon(49% 48%, 0 100%, 100% 100%);
+}
