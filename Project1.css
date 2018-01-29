@@ -1,3 +1,24 @@
+.header {
+  background: #DDDDDD;
+  background: url(images/header-bg-4.jpg) no-repeat center top;
+  padding-top:100px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 300px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* don't forget to edit the image height and width */
 .shape-container{
   position:relative;
