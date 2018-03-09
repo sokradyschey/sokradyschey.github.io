@@ -71,12 +71,12 @@ a:after {
 /* Header Wrap */
 .header {
   background: #DDDDDD;
-  background: url(../images/header-bg-2.jpg) no-repeat center top;
+  background: url(../images/Dory2.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
+  background-position: top center center;
+  min-height: 400px;
   width: 100%;
 
   -webkit-background-size: 100%;
@@ -92,22 +92,23 @@ a:after {
 
 .header h1 {
   font-size: 80px;
-  color: white;
-  background: rgba(0,0,0,0.2);
+  color: #0073e6;
+  background: rgba(0,0,0,0.5);
 }
 
 .header h3 {
   font-size: 25px;
-  color: white;
+  color: #fff;
 }
 
 .header h3 a {
+  font-size: 25px;
   color: #fff;
 }
 
 /* About Wrap */
 .about {
-  background: #B0C4DE;
+  background: #b3b3ff;
   font-size: 20px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -161,6 +162,7 @@ a:after {
   /*color: #1abc9c;*/
 }
 
+
 /* Global Values */
 
 .desc {
@@ -183,7 +185,7 @@ a:after {
 }
 
 .desc more {
-  color: #616669;
+  color: black;
 }
 
 
