@@ -135,7 +135,7 @@ a:after {
 }
 
 .footer {
-  background: #B0C4DE;
+  background: #b3b3ff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -179,8 +179,9 @@ a:after {
 
 .desc imp {
   padding: 6px;
+  font-size: 20px;
   color: white;
-  background: #2f2f2f;
+  background: rgba(0,0,0,0.5);
 }
 
 .desc more {
@@ -188,8 +189,23 @@ a:after {
 }
 
 
-sm {
+.about sm {
+  color: #005ce6;
   font-size: 16px;
+}
+
+#project i{
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+#project sm{
+  color: black;
+}
+
+#email a{
+  color: #005ce6;
 }
 
 .desc .col-lg-3 {
