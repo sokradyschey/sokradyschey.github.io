@@ -1,1 +1,0 @@
-# sokradyschey.github.io
