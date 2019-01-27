@@ -80,6 +80,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 .footer-info p{
 	line-height: .5;
 }
+.card-section{
+	background-color:#efefef;
+}
+.card-section > a:last-child{
+	float: right;
+}
 
 /* Scroll to Top */
 .scrolltop {
