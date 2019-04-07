@@ -28,5 +28,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-photon"
-  }
+  },
+  "deploy:github": "npm run build && node ./scripts/deploy-github"
 }
