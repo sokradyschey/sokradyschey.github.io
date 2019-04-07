@@ -578,7 +578,7 @@
       "resolve": "/Users/sokradychey/Documents/GitHub/sokradyschey.github.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "98cd38639cfbbf0645c17fd3d622e2f5",
+      "version": "69815aa34f04cd1eb5fe959bf7d9fa3c",
       "pluginOptions": {
         "plugins": []
       },
@@ -650,7 +650,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1f9aa413e9ff67a8769686bd5d655b6a",
+        "contentDigest": "ee3af902afa42ba5f45b4e3b58306e9e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -760,18 +760,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Starter - Photon",
+        "title": "Sokrady Chey",
         "author": "Hunter Chang",
         "description": "A Gatsby.js Starter based on Photon by HTML5 UP"
       },
-      "pathPrefix": "",
+      "pathPrefix": "/sokradyschey.github.io",
       "polyfill": true,
-      "buildTime": "2019-04-07T05:25:58.513Z",
+      "buildTime": "2019-04-07T05:31:35.284Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d46e91f27a19ae5f8554bfe292998bc3",
+        "contentDigest": "34469beb536187fefef4705d016947cd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -863,7 +863,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c7e97bcf700bb022d0eab6a7037c903a"
+    "PLUGINS_HASH": "3d7318973155ccd760e2837f33703e77"
   },
   "componentDataDependencies": {
     "nodes": {},
