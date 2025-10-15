@@ -1,8 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import { Mail, MapPin, Linkedin, Github } from "lucide-react";
 
 function Contact() {
+    const [captchaValue, setCaptchaValue] = useState(null);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (!captchaValue) {
+        alert("Please verify you are not a robot.");
+        return;
+        }
+
+        const form = e.target;
+
+        emailjs
+        .sendForm(
+            "service_5ha39cn",
+            "template_ji34fhs",
+            form,
+            "ohacLB1l-8nPSz9Fb"
+        )
+        .then(
+            (result) => {
+            alert("Message sent successfully!");
+            form.reset();
+            setCaptchaValue(null);
+            },
+            (error) => {
+            alert("Error sending message, please try again.");
+            }
+        );
+    };
   return (
     <Container className="py-5">
         <div className="text-center mb-5">
@@ -40,23 +72,30 @@ function Contact() {
         <Col md={6}>
             <Card className="shadow-sm border-0">
             <Card.Body>
-                <Form>
+                <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" required />
+                    <Form.Control type="text" name="name" required />
                 </Form.Group>
+
                 <Form.Group className="mb-3">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" required />
+                    <Form.Control type="email" name="email" required />
                 </Form.Group>
+
                 <Form.Group className="mb-3">
                     <Form.Label>Subject</Form.Label>
-                    <Form.Control type="text" required />
+                    <Form.Control type="text" name="subject" required />
                 </Form.Group>
+
                 <Form.Group className="mb-4">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control as="textarea" rows={4} required />
+                    <Form.Control as="textarea" rows={4} name="message" required />
                 </Form.Group>
+                <ReCAPTCHA
+                    sitekey="6Ld-xusrAAAAAN_0-6oVVsjt3SaN5zrJRzfTxlX3"
+                    onChange={(value) => setCaptchaValue(value)}
+                />
                 <Button variant="primary" type="submit" className="w-100 py-2">
                     Send Message
                 </Button>
