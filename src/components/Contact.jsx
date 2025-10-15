@@ -95,6 +95,7 @@ function Contact() {
                 <ReCAPTCHA
                     sitekey="6Ld-xusrAAAAAN_0-6oVVsjt3SaN5zrJRzfTxlX3"
                     onChange={(value) => setCaptchaValue(value)}
+                    className="mb-4 w-100"
                 />
                 <Button variant="primary" type="submit" className="w-100 py-2">
                     Send Message
