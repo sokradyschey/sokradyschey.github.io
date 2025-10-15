@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Mail, MapPin, Linkedin, Github } from "lucide-react";
 
 function Contact() {
   return (
-    <Container>
+    <Container className="py-5">
         <div className="text-center mb-5">
         <h2 className="fw-bold fs-1 text-dark mb-3">Get In Touch</h2>
         <p className="fs-5 text-secondary mx-auto" style={{ maxWidth: "700px" }}>
@@ -17,9 +18,22 @@ function Contact() {
             <p className="text-secondary mb-4">
             I'm always open to discussing new opportunities, interesting projects, or just having a friendly conversation.
             </p>
-            <div className="d-flex flex-column gap-3">
-            <div><strong>Email:</strong> sokradychey@gmail.com</div>
-            <div><strong>Location:</strong> Wilmington, DE</div>
+            <div className="d-flex gap-3">
+                <div className="d-flex gap-3 items-center">
+                    <div className="bg-accent py-2 px-2 rounded d-flex align-items-center justify-content-center">
+                        <Button variant="link" href="mailto:sokradychey@gmail.com"><Mail color="#9333EA" size={24}/></Button>
+                    </div>
+                </div>
+                <div className="d-flex gap-3 items-center">
+                    <div className="bg-accent py-2 px-2 rounded d-flex align-items-center justify-content-center">
+                        <Button variant="link" href="linkedin.com/in/sokradychey"><Linkedin color="#9333EA" size={24}/></Button>
+                    </div>
+                </div>
+                <div className="d-flex gap-3 items-center">
+                    <div className="bg-accent py-2 px-2 rounded d-flex align-items-center justify-content-center">
+                    <Button variant="link" href="https://github.com/sokradyschey"><Github color="#9333EA" size={24}/></Button>
+                    </div>
+                </div>
             </div>
         </Col>
 

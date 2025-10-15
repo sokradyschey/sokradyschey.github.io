@@ -1,20 +1,138 @@
+/* ===========================
+   🎨 Portfolio Color Palette
+   Author: Sokrady Chey
+   Purpose: Accessible, modern palette for a UI/UX portfolio
+   =========================== */
+
+/* ---------- Root Variables ---------- */
+:root {
+  /* Primary brand colors */
+  --color-primary: #9333EA;   /* Veronica */
+  --color-secondary: #4B5563; /* Charcoal */
+  --color-accent: #F3E8FF;    /* Pale Purple */
+
+  /* Neutral colors */
+  --color-bg: #F9FAFB;        /* Porcelain (main background) */
+  --color-surface: #E5E7EB;   /* Mist (cards, sections) */
+
+  /* Text colors */
+  --color-text-primary: #111827;  /* Slate */
+  --color-text-secondary: #4B5563; /* Graphite */
+
+  /* Dark mode support */
+  --color-dark-bg: #1E293B;
+  --color-dark-surface: #334155;
+  --color-dark-text: #F9FAFB;
+
+  /* Gradients */
+  --gradient-calm: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* ---------- Global Base Styles ---------- */
 body {
-    box-sizing: border-box;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
 }
 
-.gradient-bg {
-    background: linear-gradient(135deg, #2563EB, #10B981);
+/* ---------- Text Utilities ---------- */
+.text-primary {
+  color: var(--color-primary) !important;
 }
 
-.card-hover {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.text-secondary {
+  color: var(--color-secondary) !important;
 }
 
-.card-hover:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+.text-accent {
+  color: var(--color-accent) !important;
 }
 
+.text-muted {
+  color: var(--color-text-secondary) !important;
+}
+
+/* ---------- Background Utilities ---------- */
+.bg-primary {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+  color: #fff !important;
+}
+
+.bg-accent {
+  background-color: var(--color-accent) !important;
+  color: var(--color-primary) !important;
+}
+
+.bg-surface {
+  background-color: var(--color-surface) !important;
+}
+
+.bg-dark {
+  background-color: var(--color-dark-bg) !important;
+  color: #fff !important;
+}
+
+/* ---------- Gradient Backgrounds ---------- */
+.bg-gradient-creative {
+  background: var(--gradient-creative);
+  color: #fff;
+}
+
+.bg-gradient-calm {
+  background: var(--gradient-calm);
+  color: #fff;
+}
+
+/* ---------- Button Styles ---------- */
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1d4ed8; /* darker shade for hover */
+  border-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #059669; /* darker emerald */
+  border-color: #059669;
+}
+
+/* ---------- Card / Section Styles ---------- */
+.section-surface {
+  background-color: var(--color-surface);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-dark {
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+
+/* ---------- Accessibility Focus ---------- */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+/* ---------- Smooth Scrolling ---------- */
 .smooth-scroll {
     scroll-behavior: smooth;
 }
