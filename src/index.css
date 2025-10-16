@@ -98,8 +98,8 @@ body {
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #1d4ed8; /* darker shade for hover */
-  border-color: #1d4ed8;
+  background-color: #7606df; /* darker shade for hover */
+  border-color: #7606df;
 }
 
 .btn-secondary {
@@ -110,8 +110,8 @@ body {
 
 .btn-secondary:hover,
 .btn-secondary:focus {
-  background-color: #059669; /* darker emerald */
-  border-color: #059669;
+  background-color: #313a45; /* darker emerald */
+  border-color: #313a45;
 }
 
 /* ---------- Card / Section Styles ---------- */
