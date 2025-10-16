@@ -11,7 +11,7 @@ function Projects() {
       gradient: "bg-gradient-calm",
       icon: <ChartColumnBig color="#ffffff" size={100} strokeWidth={2} />,
       demo: "https://www.figma.com/design/E8duKg59Q3GvW7W2LiZpPw/Lab-Intelligence-UI-Components--Copy-?node-id=1-571&t=AlaPG34dRW02uVIC-1",
-      github: "https://github.com/sokradyschey",
+      github: "#",
     },
   ];
 
