@@ -72,7 +72,7 @@ function Projects() {
                   {proj.github && proj.github !== "#" && (
                     <Button 
                     variant="secondary" 
-                    href={proj.demo} 
+                    href={proj.github} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     >
