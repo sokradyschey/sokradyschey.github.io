@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { ChartColumnBig } from "lucide-react";
+import { ChartColumnBig, Sprout } from "lucide-react";
 
 function Projects() {
   const projects = [
@@ -12,6 +12,15 @@ function Projects() {
       icon: <ChartColumnBig color="#ffffff" size={100} strokeWidth={2} />,
       demo: "https://www.figma.com/design/E8duKg59Q3GvW7W2LiZpPw/Lab-Intelligence-UI-Components--Copy-?node-id=1-571&t=AlaPG34dRW02uVIC-1",
       github: "#",
+    },
+        {
+      title: "Meditation App",
+      desc: "Meditation app with timer and ambient sounds.",
+      stack: ["React", "CSS"],
+      gradient: "bg-gradient-calm",
+      icon: <Sprout color="#ffffff" size={100} strokeWidth={2} />,
+      demo: "https://mediate.netlify.app/",
+      github: "https://github.com/sokradyschey/meditation-app",
     },
   ];
 
