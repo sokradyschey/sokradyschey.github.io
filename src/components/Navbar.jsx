@@ -5,7 +5,7 @@ import logo from '../assets/images/dev.png';
 
 function NavigationBar() {
   return (
-    <Navbar className="bs-primary-bg-subtle">
+    <Navbar className="bg-white sticky-top opacity-90">
       <Container>
         <Navbar.Brand href="#home">
           <img

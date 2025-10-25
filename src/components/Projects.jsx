@@ -8,7 +8,7 @@ function Projects() {
       title: "Analytics Dashboard",
       desc: "Real-time data visualization dashboard with interactive charts 📊📈",
       stack: ["HTMX", "Highcharts.js", "Python", "Bootstrap"],
-      gradient: "bg-gradient-calm",
+      gradient: "bg-gradient-creative",
       icon: <ChartColumnBig color="#ffffff" size={100} strokeWidth={2} />,
       demo: "https://www.figma.com/design/E8duKg59Q3GvW7W2LiZpPw/Lab-Intelligence-UI-Components--Copy-?node-id=1-571&t=AlaPG34dRW02uVIC-1",
       github: "#",
@@ -26,7 +26,7 @@ function Projects() {
       title: "Recidex",
       desc: "Pokédex-styled recipe app built in Next.js 🎮🍳 (In Progress)",
       stack: ["Next.js", "Tailwind", "Typescript.js"],
-      gradient: "bg-gradient-calm",
+      gradient: "bg-gradient-energize",
       icon: <BookMarked color="#ffffff" size={100} strokeWidth={2} />,
       demo: "#",
       github: "https://github.com/sokradyschey/recidex",
@@ -47,7 +47,7 @@ function Projects() {
           <Col key={idx}>
             <Card className="shadow-sm border-0 card-hover h-100">
               <div
-                className={`d-flex align-items-center justify-content-center ${proj.gradient}`}
+                className={`d-flex align-items-center justify-content-center card-img-top ${proj.gradient}`}
                 style={{ height: "180px" }}
               >
                 {proj.icon}

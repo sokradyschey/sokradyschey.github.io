@@ -143,3 +143,8 @@ body {
 .smooth-scroll {
     scroll-behavior: smooth;
 }
+
+/* ---------- Opacity ---------- */
+.opacity-90 {
+  opacity: 0.9 !important;
+}
