@@ -26,7 +26,7 @@ function About() {
       <div className="text-center mb-5">
         <h2 className="fw-bold fs-1 text-dark mb-3">About Me</h2>
         <p className="fs-5 text-secondary mx-auto" style={{ maxWidth: "700px" }}>
-          Passionate Software Developer with a love for crafting seamless digital experiences.
+          Passionate Frontend Software Developer with a love for crafting seamless digital experiences.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ function About() {
             and performance to create products users truly enjoy.
           </p>
           <div className="d-flex flex-wrap gap-2">
-            {["Bootstrap", "Tailwind", "HTMX", "JavaScript", "React", "UI/UX Design", "Figma", "SQL", "Python", "Flask", "Highcharts.js"].map((skill) => (
+            {["Bootstrap", "Tailwind", "HTMX", "JavaScript", "React", "UI/UX Design", "Figma", "SQL", "Python", "Flask", "Highcharts.js", "QA Testing"].map((skill) => (
                 <Badge pill key={skill} bg="light" className="bg-accent border border-accent px-2 py-1">
                     {skill}
                 </Badge>
