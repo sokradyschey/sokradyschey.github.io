@@ -35,7 +35,7 @@ function About() {
         <Col md={6}>
           <h3 className="fw-semibold mb-4">Turning Ideas into Interactive Experiences</h3>
           <p className="text-secondary">
-            As a Software Developer with a strong front-end focus, 
+            As a Frontend Software Developer with a strong front-end focus, 
             I bring over 5 years of experience building responsive, 
             high-performance web applications. 
             I love translating complex requirements into simple, 
