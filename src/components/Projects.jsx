@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { ChartColumnBig, Sprout, BookMarked } from "lucide-react";
+import { ChartColumnBig, Sprout, BookMarked, BookOpenCheck } from "lucide-react";
 
 function Projects() {
   const projects = [
@@ -30,6 +30,15 @@ function Projects() {
       icon: <BookMarked color="#ffffff" size={100} strokeWidth={2} />,
       demo: "#",
       github: "https://github.com/sokradyschey/recidex",
+    },
+    {
+      title: "Technical Interview Flash Cards",
+      desc: "Flash card app for coding interview prep with spaced repetition 🃏💡",
+      stack: ["Next.js", "Tailwind", "Typescript.js"],
+      gradient: "bg-gradient-calm",
+      icon: <BookOpenCheck color="#ffffff" size={100} strokeWidth={2} />,
+      demo: "#",
+      github: "https://github.com/sokradyschey/flashcard-app",
     },
   ];
 

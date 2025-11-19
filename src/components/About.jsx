@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Badge } from "react-bootstrap";
-import { Code2, Palette, Server } from "lucide-react";
+import { Code2, Palette, Server, SearchCheck } from "lucide-react";
 
 function About() {
   const cards = [
@@ -18,6 +18,11 @@ function About() {
       title: "UI/UX Design",
       text: "Designing and developing intuitive, responsive interfaces that turn complex ideas into effortless user experiences.",
       icon: <Palette color="#9333EA" size={24} />,
+    },
+    {
+      title: "QA Testing",
+      text: "Ensuring high-quality software through meticulous testing, identifying bugs, and optimizing performance for seamless user experiences.",
+      icon: <SearchCheck color="#9333EA" size={24} />,
     },
   ];
 
