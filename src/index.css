@@ -39,7 +39,7 @@ body {
 }
 
 /* ---------- Text Utilities ---------- */
-.text-primary {
+.text-primary, .text-primary-color {
   color: var(--color-primary) !important;
 }
 
@@ -147,4 +147,11 @@ body {
 /* ---------- Opacity ---------- */
 .opacity-90 {
   opacity: 0.9 !important;
+}
+
+/* ---------- Tab Nav Links ---------- */
+
+.nav-tabs .nav-link {
+  color: var(--color-text-secondary)!important;
+  transition: color 0.3s ease!important;
 }

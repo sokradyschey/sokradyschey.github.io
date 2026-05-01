@@ -5,7 +5,7 @@ function Hero() {
   return (
     <Container>
       <h1 className="display-4 fw-bold">Hi, I’m Sokrady 👋</h1>
-      <p className="fs-4">Frontend Software Developer</p>
+      <p className="fs-4">Frontend Software Engineer</p>
       <p className="mb-4 fs-5">
         I bring designs to life through responsive, interactive, and meaningful web experiences. Let’s build something users will love.
       </p>
