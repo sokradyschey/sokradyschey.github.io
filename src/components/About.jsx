@@ -132,14 +132,6 @@ function About() {
             </Row>
           </div>
         </Tab>
-
-        {/* EDUCATION */}
-        <Tab eventKey="education" title="Education">
-          <div className="pt-4">
-            <h3 className="fw-semibold mb-3">Education</h3>
-            <p className="text-secondary">Add your education here.</p>
-          </div>
-        </Tab>
       </Tabs>
     </Container>
   );
