@@ -1,16 +1,114 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website was built with Next.js, React, TypeScript, and Tailwind.
 
-Currently, two official plugins are available:
+The site showcases my professional experience, technical skills, and selected projects, including frontend engineering work, accessibility-focused implementations, and modern web applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
 
-## React Compiler
+I'm a Frontend Engineer with 7+ years of experience building accessible, responsive, and user-focused web experiences. My background includes working on government health initiatives, analytics platforms, website migrations, and modern React applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio serves as a central place to learn more about my experience, view featured projects, and connect with me professionally.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Responsive design for desktop, tablet, and mobile devices
+* Project portfolio with detailed case studies
+* Professional experience timeline
+* Skills and technology overview
+* Contact section
+* Accessibility-focused implementation
+* SEO-friendly architecture
+
+## Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Bootstrap 5
+* HTML5
+* CSS3
+
+### Development Tools
+
+* Git
+* GitHub
+* ESLint
+* Prettier
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js 18+
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to:
+
+```text
+http://localhost:3000
+```
+
+## Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Run the production server:
+
+```bash
+npm run start
+```
+
+## Deployment
+
+This project is configured for deployment on Netlify.
+
+## Project Structure
+
+```text
+src/
+├── app/
+├── components/
+├── data/
+├── lib/
+├── styles/
+└── types/
+```
+
+## Accessibility
+
+Accessibility is an important part of my development process. This project follows semantic HTML practices and aims to provide an inclusive experience for all users.
+
+## Contact
+
+Feel free to connect with me through LinkedIn or reach out through the contact form on the website.
+
+## License
+
+This project is licensed under the MIT License.
