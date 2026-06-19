@@ -6,7 +6,7 @@ The site showcases my professional experience, technical skills, and selected pr
 
 ## About
 
-I'm a Frontend Engineer with 7+ years of experience building accessible, responsive, and user-focused web experiences. My background includes working on government health initiatives, analytics platforms, website migrations, and modern React applications.
+I'm a Frontend Engineer with 4+ years of experience building accessible, responsive, and user-focused web experiences. My background includes working on government health initiatives, analytics platforms, website migrations, and modern React applications.
 
 This portfolio serves as a central place to learn more about my experience, view featured projects, and connect with me professionally.
 
