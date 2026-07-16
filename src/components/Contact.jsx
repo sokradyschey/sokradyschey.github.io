@@ -48,14 +48,9 @@ function Contact() {
         <Col md={6}>
             <h3 className="fw-semibold mb-4">Let's Connect</h3>
             <p className="text-secondary mb-4">
-            I'm always open to discussing new opportunities, interesting projects, or just having a friendly conversation.
+            Thanks for stopping by! If you'd like to connect, discuss an opportunity, or chat about web development, feel free to reach out.
             </p>
             <div className="d-flex gap-3">
-                <div className="d-flex gap-3 items-center">
-                    <div className="bg-accent py-2 px-2 rounded d-flex align-items-center justify-content-center">
-                        <Button variant="link" href="mailto:sokradychey@gmail.com"><Mail color="#9333EA" size={24}/></Button>
-                    </div>
-                </div>
                 <div className="d-flex gap-3 items-center">
                     <div className="bg-accent py-2 px-2 rounded d-flex align-items-center justify-content-center">
                         <Button variant="link" href="linkedin.com/in/sokradychey"><Linkedin color="#9333EA" size={24}/></Button>
