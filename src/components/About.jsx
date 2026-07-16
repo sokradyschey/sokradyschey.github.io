@@ -53,7 +53,7 @@ function About() {
                 I bring over 4 years of experience building responsive,
                 high-performance web applications.
               </p>
-              <Button href="https://drive.google.com/file/d/1NBmI5TYfQu_AjKVNf0nTLD1qYvgM6SYt/view?usp=sharing" target="_blank" rel="noopener noreferrer" variant="secondary" className="fw-semibold text-white rounded-pill px-3 py-2">Download CV <Download class="align-text-bottom" color="#FFFFFF" size={20}/></Button>
+              <Button href="https://drive.google.com/file/d/1PzDnWU2RAQR_AKktLEROraEbfRwn81IG/view?usp=sharing" target="_blank" rel="noopener noreferrer" variant="secondary" className="fw-semibold text-white rounded-pill px-3 py-2">Download CV <Download class="align-text-bottom" color="#FFFFFF" size={20}/></Button>
             </Col>
           </Row>
         </Tab>
