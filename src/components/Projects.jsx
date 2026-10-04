@@ -23,15 +23,6 @@ function Projects() {
       github: "https://github.com/sokradyschey/meditation-app",
     },
     {
-      title: "Recidex",
-      desc: "Pokédex-styled recipe app built in Next.js 🎮🍳 (In Progress)",
-      stack: ["Next.js", "Tailwind", "Typescript.js"],
-      gradient: "bg-gradient-energize",
-      icon: <BookMarked color="#ffffff" size={100} strokeWidth={2} />,
-      demo: "#",
-      github: "https://github.com/sokradyschey/recidex",
-    },
-    {
       title: "Technical Interview Flash Cards",
       desc: "Flash card app for coding interview prep with spaced repetition 🃏💡",
       stack: ["Next.js", "Tailwind", "Typescript.js"],
